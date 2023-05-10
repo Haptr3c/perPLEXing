@@ -111,7 +111,7 @@ services:
       - PUID=${PUID} # default user id, defined in .env
       - PGID=${PGID} # default group id, defined in .env
       - TZ=America/New_York
-      - PLEX_CLAIM=claim-xhy2yMvjkSXMz8q72TsL
+      - PLEX_CLAIM=claim-abc123abc123
     network_mode: host
     volumes:
       - ${ROOT}/plexdb:/config
